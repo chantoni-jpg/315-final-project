@@ -758,6 +758,11 @@ img {
   .hero {
     width: 768px;
   }
+  .hero h1 {
+    position: relative;
+    left: 20px;
+    top: 10px;
+  }
 }
 span {
   position: relative;
