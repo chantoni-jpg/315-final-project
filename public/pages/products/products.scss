@@ -51,19 +51,17 @@ button {
 }
 
 .product-title {
-  margin-top: 30px;
+  margin-top: 0px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   font-family: MarkTF;
-  font-size: 10px;
+  font-size: 13px;
 }
 .product-price {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   font-family: MarkTF;
-  font-size: 10px;
+  font-size: 15px;
 }
 .product-button {
   display: flex;
@@ -147,8 +145,7 @@ span {
       font-size: 20px;
       color: white;
       position: relative;
-      left: 0px;
-      bottom: 150px;
+      top: -150px;
     }
   }
   span {
@@ -162,6 +159,9 @@ span {
   }
   .product-one {
     margin: 0 auto;
+  }
+  .product-image {
+    margin-left: 50px;
   }
   .filters {
     position: relative;
